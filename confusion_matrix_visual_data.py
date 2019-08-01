@@ -25,7 +25,7 @@ def plot_confusion_matrix(cm, classes,
     plt.xlabel('Predicted label')
 
 def get_confusion_matrix_for_image_data():
-    cm = np.load('vision_weights.npy')
+    cm = np.load('/content/ODSC_2019-Multi-Modal-Learning/vision_weights.npy')
     print(cm)
     print(cm.shape)
     plt.figure()

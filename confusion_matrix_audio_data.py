@@ -25,7 +25,7 @@ def plot_confusion_matrix(cm, classes,
     plt.xlabel('Predicted label')
 
 def get_confusion_matrix_for_audio_data():
-    cm = np.load('audio_weights.npy')
+    cm = np.load('/content/ODSC_2019-Multi-Modal-Learning/audio_weights.npy')
     print(cm)
     print(cm.shape)
     plt.figure()
